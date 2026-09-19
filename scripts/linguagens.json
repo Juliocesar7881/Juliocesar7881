@@ -1,0 +1,23 @@
+{
+  "todos-os-repositorios": {
+    "TypeScript": 3732968,
+    "JavaScript": 2995677,
+    "Dart": 485781,
+    "HTML": 285625,
+    "CSS": 285220,
+    "Python": 187507,
+    "Kotlin": 113838,
+    "PLpgSQL": 88307,
+    "Java": 71265,
+    "Astro": 39806,
+    "Rust": 36043,
+    "C++": 26088,
+    "PowerShell": 24694,
+    "CMake": 19920,
+    "Swift": 2551,
+    "Shell": 1727,
+    "C": 1425,
+    "PureBasic": 158,
+    "Objective-C": 38
+  }
+}

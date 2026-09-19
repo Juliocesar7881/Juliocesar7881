@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="150" viewBox="0 0 1280 150" role="img" aria-label="Obrigado pela visita!">
+<title>Obrigado pela visita!</title>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#F472B6"/></linearGradient></defs>
+<style>.o{animation:onda 9s ease-in-out infinite alternate}.o2{animation-duration:12s;animation-delay:-4s}
+@keyframes onda{from{transform:translateX(0)}to{transform:translateX(-160px)}}
+@media (prefers-reduced-motion:reduce){.o{animation:none}}</style>
+<g opacity="0.9">
+<path class="o" d="M0 110 C160 70 320 150 480 110 S800 70 960 110 S1280 150 1440 110 V150 H0Z" fill="url(#g)" fill-opacity="0.35"/>
+<path class="o o2" d="M0 125 C160 95 320 155 480 125 S800 95 960 125 S1280 155 1440 125 V150 H0Z" fill="url(#g)" fill-opacity="0.6"/>
+</g>
+<text x="640.0" y="62" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="url(#g)">Obrigado pela visita!</text>
+</svg>

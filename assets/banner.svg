@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="titulo desc">
+<title id="titulo">Júlio César Luchini</title>
+<desc id="desc">Desenvolvedor full-stack e mobile. Web, Android, desktop e IA aplicada.</desc>
+<defs>
+  <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B0D17"/><stop offset="1" stop-color="#12152A"/></linearGradient>
+  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A78BFA"/><stop offset="0.55" stop-color="#22D3EE"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+  <filter id="blur" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="64"/></filter>
+  <pattern id="grade" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.05"/></pattern>
+  <radialGradient id="foco" cx="0.35" cy="0.45" r="0.75"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+  <mask id="mascara"><rect width="1280" height="400" fill="url(#foco)"/></mask>
+  <clipPath id="canto"><rect width="1280" height="400" rx="28"/></clipPath>
+</defs>
+<style>
+  .blob{animation:flutua 16s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+  .b2{animation-duration:21s;animation-delay:-7s}
+  .b3{animation-duration:26s;animation-delay:-3s}
+  @keyframes flutua{0%{transform:translate(0,0) scale(1)}50%{transform:translate(70px,-30px) scale(1.18)}100%{transform:translate(-50px,28px) scale(.92)}}
+  .ln{opacity:0;animation:entra .5s ease-out forwards}
+  @keyframes entra{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+  .cursor{animation:pisca 1.1s steps(1) infinite}
+  @keyframes pisca{50%{opacity:0}}
+  .sobe{opacity:0;animation:sobe .8s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes sobe{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  @media (prefers-reduced-motion:reduce){.blob,.cursor{animation:none}.ln,.sobe{animation:none;opacity:1}}
+</style>
+<g clip-path="url(#canto)">
+  <rect width="1280" height="400" fill="url(#fundo)"/>
+  <g filter="url(#blur)" opacity="0.6">
+    <circle class="blob" cx="200" cy="70" r="170" fill="#7C3AED"/>
+    <circle class="blob b2" cx="1120" cy="340" r="180" fill="#0891B2"/>
+    <circle class="blob b3" cx="700" cy="30" r="120" fill="#DB2777" fill-opacity="0.55"/>
+  </g>
+  <rect width="1280" height="400" fill="url(#grade)" mask="url(#mascara)"/>
+
+  <g class="sobe">
+    <rect x="72" y="72" width="268" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <circle cx="92" cy="89" r="5" fill="#34D399"/>
+    <circle cx="92" cy="89" r="9" fill="none" stroke="#34D399" stroke-opacity="0.35"/>
+    <text x="108" y="94" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13.5" fill="#C9D1D9" textLength="194.4" lengthAdjust="spacing" >full-stack · mobile · IA</text>
+  </g>
+  <g class="sobe" style="animation-delay:.12s">
+    <text x="70" y="178" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="58" font-weight="800" fill="#E6EDF3" letter-spacing="-1">Júlio César</text>
+    <text x="70" y="240" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="58" font-weight="800" fill="url(#grad)" letter-spacing="-1">Luchini</text>
+  </g>
+  <g class="sobe" style="animation-delay:.24s">
+    <text x="72" y="276" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" fill="#98A2B3">Produtos digitais de ponta a ponta: do banco de dados à Play Store.</text>
+  </g>
+  <g class="sobe" style="animation-delay:.36s"><rect x="72" y="296" width="82.6" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/><text x="86" y="318" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#C9D1D9" textLength="54.6" lengthAdjust="spacing" >Next.js</text><rect x="164.6" y="296" width="121.6" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/><text x="178.6" y="318" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#C9D1D9" textLength="93.6" lengthAdjust="spacing" >React Native</text><rect x="296.2" y="296" width="121.6" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/><text x="310.2" y="318" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#C9D1D9" textLength="93.6" lengthAdjust="spacing" >Tauri + Rust</text><rect x="427.79999999999995" y="296" width="82.6" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/><text x="441.79999999999995" y="318" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#C9D1D9" textLength="54.6" lengthAdjust="spacing" >PyTorch</text></g>
+
+  <g class="sobe" style="animation-delay:.2s">
+    <rect x="772" y="64" width="452" height="272" rx="16" fill="#0A0C18" fill-opacity="0.82" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <path d="M772 108H1224" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <circle cx="794" cy="86" r="6" fill="#FF5F57"/>
+    <circle cx="814" cy="86" r="6" fill="#FEBC2E"/>
+    <circle cx="834" cy="86" r="6" fill="#28C840"/>
+    <text x="966.8" y="91" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#6B7394" textLength="62.4" lengthAdjust="spacing" >julio.ts</text>
+    <g class="ln" style="animation-delay:0.35s"><text x="808" y="142" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#4B5270" text-anchor="end">1</text><text x="824" y="142" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" xml:space="preserve" textLength="135.0" lengthAdjust="spacing"><tspan fill="#C084FC">const </tspan><tspan fill="#7DD3FC">julio</tspan><tspan fill="#94A3B8"> = {</tspan></text></g><g class="ln" style="animation-delay:0.53s"><text x="808" y="169" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#4B5270" text-anchor="end">2</text><text x="824" y="169" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" xml:space="preserve" textLength="342.0" lengthAdjust="spacing"><tspan fill="#F9A8D4">  stack</tspan><tspan fill="#94A3B8">: [</tspan><tspan fill="#86EFAC">&quot;Next.js&quot;</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#86EFAC">&quot;Expo&quot;</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#86EFAC">&quot;Tauri&quot;</tspan><tspan fill="#94A3B8">],</tspan></text></g><g class="ln" style="animation-delay:0.71s"><text x="808" y="196" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#4B5270" text-anchor="end">3</text><text x="824" y="196" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" xml:space="preserve" textLength="324.0" lengthAdjust="spacing"><tspan fill="#F9A8D4">  ia</tspan><tspan fill="#94A3B8">: </tspan><tspan fill="#86EFAC">&quot;visão computacional offline&quot;</tspan><tspan fill="#94A3B8">,</tspan></text></g><g class="ln" style="animation-delay:0.89s"><text x="808" y="223" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#4B5270" text-anchor="end">4</text><text x="824" y="223" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" xml:space="preserve" textLength="342.0" lengthAdjust="spacing"><tspan fill="#F9A8D4">  apps</tspan><tspan fill="#94A3B8">: [</tspan><tspan fill="#86EFAC">&quot;web&quot;</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#86EFAC">&quot;android&quot;</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#86EFAC">&quot;desktop&quot;</tspan><tspan fill="#94A3B8">],</tspan></text></g><g class="ln" style="animation-delay:1.07s"><text x="808" y="250" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#4B5270" text-anchor="end">5</text><text x="824" y="250" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" xml:space="preserve" textLength="324.0" lengthAdjust="spacing"><tspan fill="#F9A8D4">  extra</tspan><tspan fill="#94A3B8">: </tspan><tspan fill="#86EFAC">&quot;edição de vídeo e motion&quot;</tspan><tspan fill="#94A3B8">,</tspan></text></g><g class="ln" style="animation-delay:1.25s"><text x="808" y="277" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#4B5270" text-anchor="end">6</text><text x="824" y="277" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" xml:space="preserve" textLength="18.0" lengthAdjust="spacing"><tspan fill="#94A3B8">};</tspan></text></g><g class="ln" style="animation-delay:1.43s"><text x="808" y="304" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#4B5270" text-anchor="end">7</text><text x="824" y="304" font-family="'JetBrains Mono','Cascadia Code','SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" xml:space="preserve" textLength="297.0" lengthAdjust="spacing"><tspan fill="#7DD3FC">julio</tspan><tspan fill="#94A3B8">.</tspan><tspan fill="#FDE68A">build</tspan><tspan fill="#94A3B8">(</tspan><tspan fill="#86EFAC">&quot;o próximo projeto&quot;</tspan><tspan fill="#94A3B8">);</tspan></text></g>
+    <rect class="cursor" x="1124.0" y="289" width="8" height="19" rx="1.5" fill="#A78BFA"/>
+  </g>
+</g>
+<rect x="0.5" y="0.5" width="1279" height="399" rx="28" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+</svg>
